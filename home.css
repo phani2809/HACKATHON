@@ -1,0 +1,199 @@
+/* General styles */
+@import url('https://fonts.googleapis.com/css2?family=Bree+Serif&family=Caveat:wght@400;700&family=Lobster&family=Monoton&family=Open+Sans:ital,wght@0,400;0,700;1,400;1,700&family=Playfair+Display+SC:ital,wght@0,400;0,700;1,700&family=Playfair+Display:ital,wght@0,400;0,700;1,700&family=Roboto:ital,wght@0,400;0,700;1,400;1,700&family=Source+Sans+Pro:ital,wght@0,400;0,700;1,700&family=Work+Sans:ital,wght@0,400;0,700;1,700&display=swap');
+
+
+.b {
+    background-color: #f2f5f7;
+    width: 100vw;
+   
+}
+.india-card {
+    height: 500px; /* Set the desired height */
+    /*overflow: hidden;  Hide overflow content */
+  }
+
+.india-card img {
+    height: 500px; /* Ensure the image covers the entire card height */
+    /* object-fit: cover; Crop the image if needed */
+  }
+
+.container1-style {
+    border-style: solid;
+    background-color: #022135;
+    border-radius: 5px;
+    border-width: 5px;
+    height: 1150px;
+    width: 25vw;
+}
+
+.container1-text {
+    color:#b9c4c6;
+    font-weight:bold;
+}
+
+.front-design-card {
+    background-color: #ffffff;
+    color: #a7a1a0;
+}
+.plan-your-trip-heading {
+    background: linear-gradient(to right, #34afed, #e9f1f5);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+
+.navbar-design {
+    background: radial-gradient(circle, #b93582, #f37caa, #ed7dbe, #568ae4);
+}
+
+/* Navbar items should stack vertically on small devices */
+.navbar-nav {
+    display: flex;
+    flex-direction: column;
+    /* Stack items vertically */
+}
+
+.navbar-nav .nav-item {
+    margin-bottom: 0.5rem;
+    /* Add some space between items */
+}
+
+.navbar-nav .nav-link {
+    color: white;
+    /* Ensure text color is visible */
+}
+
+/* Ensure card is visible on all device sizes */
+.card {
+    margin-bottom: 1rem;
+}
+
+/* Full-width card style */
+.container-fluid {
+    padding: 0;
+    /* Remove padding around container */
+}
+
+.page {
+    background-color: #19232d;
+}
+
+.image {
+    height: 40px;
+    width: 60px;
+}
+
+.icon-container {
+    height: 40px;
+    width: 40px;
+    background-color: #0a223a;
+    border-radius: 45px;
+    margin-left: 5px;
+    margin-right: 5px;
+    padding-right: 30px;
+    padding-left: 15px;
+    padding-top: 15px;
+    padding-bottom: 30px;
+}
+
+.icon {
+    color: #5a7184;
+    font-size: 18px;
+}
+
+.text {
+    color: #5a7184;
+    font-size: 20px;
+}
+
+.heading {
+    color: #5a7184;
+    font-weight: bold;
+    font-size: 25px;
+}
+
+.i {
+    color: #5a7184;
+}
+
+.p {
+    list-style-type: none;
+    padding: 0px;
+}
+
+.hr-line {
+    background-color: #5a7184;
+}
+.login-container-with-icons{
+    background-color:#ffffff;
+    border-radius: 45px;
+    margin-left: 5px;
+    margin-right: 5px;
+    padding-right: 30px;
+    padding-left: 15px;
+    padding-top: 15px;
+    padding-bottom: 30px;
+}
+.vechile-icon{
+    font-size: 38px;
+}
+.apna-trip-icon{
+    height:50px;
+    width:80px;
+}
+ .h:hover{
+    transform: scale(1.05) ;
+} 
+.search{
+    height: 45px;
+    width:380px;
+    /* border: 2px solid black; */
+    border-radius: 70px;
+    display: flex;
+}
+.img_list{
+    text-align: center;
+}
+.img_list p{
+    padding-top: 30px;
+}
+.img_list .date{
+    color: #003366;
+    font-size: 20px;
+}
+.img_list .act_name{
+    color: #02aed6;
+    font-size: 24px;
+}
+.img_item{
+    width: 350px;
+    height: 300px;
+    border-radius:15px;
+}
+.Categorize-Your-Trip{
+    color:#0a223a;
+}
+.travel{
+    color:#b93582;
+}
+.wow{
+    width:100vw;
+    border: 2px;
+    height: 400px;
+    display: flex;
+    gap: 100px;
+
+}
+.inner{
+    display: flex;
+    overflow-x: scroll;
+}
+.plan-card{
+    background-color:#ffffff;
+    width:500px;
+    height:200px;
+    padding:20px;
+}
+a{
+    text-decoration: none;
+}
